@@ -1,0 +1,6 @@
+{
+  "text": "{MESSAGE}",
+  "channel": "{CHANNEL}",
+  "username": "{USERNAME}",
+  "icon_emoji": "{ICONEMOJI}"
+}

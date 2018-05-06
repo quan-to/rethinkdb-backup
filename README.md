@@ -15,6 +15,11 @@ Environment variables:
 - *RETHINK_HOST* - RethinkDB Hostname to backup. (Default: `db`)
 - *RETHINK_PORT* - RethinkDB Port (Default: `28015`)
 - *BUCKET_NAME* - S3 Bucket Name to store. (Default: `backup`)
+- *NOTIFY_SLACK* - If this container should notify it's status in slack
+- *SLACK_URL* - Slack Incoming Webhook URL
+- *SLACK_CHANNEL* - Slack Channel to post (Default: `#general`)
+- *SLACK_USERNAME* - Slack Username (Default: `RethinkDB - ${ENV_NAME}`)
+- *SLACK_ICONEMOJI* - Slack Icon Emoji (Default: `:minidisc:`)
 
 Secrets:
 - *AWS_ACCESS_KEY* - Access Key to AWS S3
